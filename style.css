@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+}
+#container video{
+    position: absolute;
+    overflow: hidden;
+    
+    object-fit: cover;
+}
+#container #bluepart{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 70px;
+    background-color: #08a5f3a3;
+
+    filter: blur(50px);
+}
+#container p{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'FIDENA';
+    position: absolute;
+    /* z-index: 999; */
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#under{
+    width: 38px;
+    height: 13px;
+    background-color: #09FFD6;
+    position: absolute;
+    top: 12%;
+    left: 9.6%;
+}
+#rnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 3.5%;
+    right: 15%;
+    width: 30%;
+    height: 80px;
+    /* background-color: red; */
+}
+#rnav a{
+    font-size: 13px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'yantramanav';
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#rnav a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+#rnav i:nth-child(3){
+    color: #ffffff;
+    margin-left: -10px;
+    margin-top: -3px;
+    /* background-color: red;- */
+}
+#rnav i:nth-child(7){
+    margin-left: -10px;
+    color: #ffffff;
+    /* background-color: red; */
+    margin-top: -3px;
+}
+#container #centertext{
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+#centertext h1{
+    font-size: 125px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+#centertext h6{
+    /* position: absolute; */
+    text-align: center;
+    
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    line-height: 50px;
+}
+#centertext h6:nth-child(2){
+    /* background-color: red; */
+    margin-top: 27px;
+    font-family: 'yantramanav';
+    font-weight: 400;
+    word-spacing: 7px;
+
+}
+#btm{
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    height: 160px;
+    /* background-color: red; */
+    position:absolute;
+    left: 10%;
+    transform: translate(-50% 0);
+    bottom: 30px;
+    z-index: 20;
+    
+}
+#first{
+    height: 100%;
+    width: 300px;
+    /* background-color: yellow; */
+}
+#first a{
+    font-family: 'arial';
+    font-weight: 700;
+    color: #09FFD6;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+#first h2{
+    font-family: 'playfair display';
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 100;
+}
+#first i{
+    color: #09FFD6;
+    position: absolute;
+    top: 74.5%;
+    left: 1.6%;
+}
+#line{
+    width: 30px;
+    height: 1px;
+    background-color: #09FFD6;
+    margin-top: 55px;
+}
+#second{
+    height: 100%;
+    width: 300px;
+    /* background-color: yellow; */
+}
+#third{
+    height: 100%;
+    width: 300px;
+    /* background-color: yellow; */
+}
+#second a{
+    font-family: 'arial';
+    font-weight: 700;
+    color: #09FFD6;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+#second h2{
+    font-family: 'playfair display';
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 100;
+}
+#second i{
+    color: #09FFD6;
+    position: absolute;
+    top: 74.5%;
+    left: 39.4%;
+}
+#line2{
+    width: 30px;
+    height: 1px;
+    background-color: #09FFD6;
+    margin-top: 55px;
+}
+#third a{
+    font-family: 'arial';
+    font-weight: 700;
+    color: #09FFD6;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+#third h2{
+    font-family: 'playfair display';
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 100;
+}
+#third i{
+    color: #09FFD6;
+    position: absolute;
+    top: 74.5%;
+    left: 77%;
+}
+#line3{
+    width: 30px;
+    height: 1px;
+    background-color: #09FFD6;
+    margin-top: 55px;
+}
+#secondpage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image:url(https://www.datocms-assets.com/41690/1617731322-products-page-header.png?w=2000&amp;fm=jpg);
+    background-size: cover;
+    background-position: center;
+}
+#secondpage p{
+    text-transform: uppercase;
+    position: absolute;
+    top: 27%;
+    left: 45%;
+    font-family: 'yantramanav';
+    
+    color: rgb(9, 255, 214);
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+#secondpage p:nth-child(2){
+    font-size: 40px;
+    text-transform: none;
+    color: white;
+    top: 33%;
+    left: 32%;
+    text-align: center;
+    font-size:70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: -2px;
+    line-height: 70px;
+
+}
+#secondpage p:nth-child(3){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14;
+    word-spacing: normal;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    top: 54%;
+    left: 37%;
+    text-transform: none;
+    color: #ffffff;
+    text-align: center;
+}
+#button{
+    height: 60px;
+    width: 170px;
+    /* background-color: red; */
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 68%;
+    left: 47%;
+}
+#button h2{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'yantramanav';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+}
+#thirdpage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.datocms-assets.com/41690/1618356862-facilities-hero.jpg?w=2000&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#thirdpage p{
+    text-transform: uppercase;
+    position: absolute;
+    top: 12%;
+    left:50%;
+    transform: translate(-50%,0);
+    font-family: 'yantramanav';
+    vertical-align: baseline;
+    color: rgb(9, 255, 214);
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    font-size: 18px;
+    /* word-spacing: 3px; */
+
+}
+#thirdpage p:nth-child(2){
+    font-size: 40px;
+    text-transform: none;
+    color: white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size:70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+#thirdpage p:nth-child(3){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'yantramanav';
+    font-size: 16px;
+    word-spacing: normal;
+    letter-spacing: .5px;
+    font-weight: 400;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-transform: none;
+    color: #ffffff;
+    text-align: center;
+    line-height: 22px;
+}
+#button2{
+    height: 60px;
+    width: 170px;
+    /* background-color: red; */
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+ 
+}
+#button2 h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'yantramanav';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    
+}
+#fourthpage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image:url(https://www.datocms-assets.com/41690/1617753667-future-hero.jpg?w=2000&fm=jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fourthpage p{
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    left:50%;
+    transform: translate(-50%,0);
+    font-family: 'yantramanav';
+    vertical-align: baseline;
+    color: rgb(9, 255, 214);
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    font-size: 18px;
+    /* word-spacing: 3px; */
+}
+#fourthpage p:nth-child(2){
+    font-size: 40px;
+    text-transform: none;
+    color: white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size:70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 60px;
+}
+#fourthpage p:nth-child(3){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'yantramanav';
+    font-size: 16px;
+    word-spacing: normal;
+    letter-spacing: .5px;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-transform: none;
+    color: #ffffff;
+}
+#button3{
+    height: 60px;
+    width: 170px;
+    /* background-color: red; */
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+ 
+}
+#button3 h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'yantramanav';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    
+}
+#fifthpage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image:url(https://www.datocms-assets.com/41690/1617754840-impact-hero.jpg?w=2000&fm=jpg);
+    background-size: cover;
+    background-position: center;
+}
+#fifthpage p{
+    text-transform: uppercase;
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,0);
+    font-family: 'yantramanav';
+    vertical-align: baseline;
+    color: rgb(9, 255, 214);
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    font-size: 18px;
+    /* word-spacing: 3px; */
+}
+#fifthpage p:nth-child(2){
+    font-size: 40px;
+    text-transform: none;
+    color: white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size:70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 70px;
+    word-spacing: -4px;
+}
+#fifthpage p:nth-child(3){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'yantramanav';
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-transform: none;
+    color: #ffffff;
+    text-align: center;
+}
+#button4{
+    height: 60px;
+    width: 170px;
+    /* background-color: red; */
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,0);
+ 
+}
+#button4 h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'yantramanav';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    
+}
+#lastpage{
+    width: 100%;
+    height: 80vh;
+    background-color: #0000D8;
+}
+#upperpart{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    border-bottom: .5px solid rgba(209, 209, 209, 0.408);
+}
+#upperpart #left{
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding: 90px 0;
+}
+#upperpart #right{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left p{
+    font-size: 48px;
+    color: white;
+    font-family: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+#left p:nth-child(2){
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20PX;
+    font-family: 'yantramanav';
+    letter-spacing: 1.4px;
+}
+#btn{
+    display: flex;
+}
+#left #emailbtn{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 260px;
+    height: 60px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+#emailbtn h2{
+    font-size: 18px;
+    color: #ffffff78;
+    margin-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+#left #subscribe{
+    width: 180px;
+    height: 60px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#subscribe h6{
+    text-transform: uppercase;
+    color: #0000D8;
+    font-size: 15px;
+    font-family: 'yantramanav';
+    letter-spacing: 1px;
+
+}
+#one{
+    width: 40%;
+    /* height: 70%; */
+    /* background-color: yellow; */
+    
+}
+#one p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'yantramanav';
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+#two{
+    width: 40%;
+    /* height: 70%; */
+    /* background-color: yellow; */
+
+    
+}
+#two p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'yantramanav';
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+#lowerpart {
+    height: 65px;
+    width: 350px;
+    margin-left: 130px;
+    margin-top: 50px;
+    /* background-color: red; */
+
+}
+#lowerpart #uper{
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#uper p{
+    color: white;
+    font-family: 'yantramanav';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+#lowerpart h6{
+    color: white;
+    font-family: 'yantramanav';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 20px;
+
+    margin-left: 2px;
+
+}
+@media(max-width:500px){
+    #container p {
+        font-size: 23px;
+        
+        margin-top: 30px;
+        margin-left: 34px;
+    }
+    #under {
+        width: 19px;
+        height: 7px;
+        background-color: #09FFD6;
+        position: absolute;
+        top: 10%;
+        left: 9%;
+    }
+    #centertext h1 {
+        font-size: 79px;
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff;
+    }
+    #container #centertext {
+        position: absolute;
+        top: 22%;
+        left: 49%;
+        transform: translate(-50%,0);
+        line-height: 75px;
+    }
+    #centertext h6 {
+        /* position: absolute; */
+        text-align: center;
+        font-size: 13px;
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff;
+        line-height: 19px;
+    }
+    #btm{
+        width: 360px;
+        left: 0%;
+    }
+    #first {
+        height: 100%;
+        width: 90px;
+        /* background-color: yellow; */
+    }
+    #second {
+        height: 100%;
+        width: 90px;
+        /* background-color: yellow; */
+    }
+    #third {
+        height: 100%;
+        width: 90px;
+        /* background-color: yellow; */
+    }
+    #first a {
+        font-size: 8px;
+    }
+    #second a {
+        font-size: 8px;
+    }
+    #third a {
+        font-size: 8px;
+    }
+    #first h2 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    #second h2 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    #third h2 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+}
+#first #line{
+    margin-top: 37px;
+}
+#second #line2{
+    margin-top: 37px;
+}
+#third #line3{
+    margin-top: 37px;
+}
+#first i{
+    top: 64.5%;
+    left: 5.6%;
+}
+#second i{
+    top: 64.5%;
+    left: 43.4%;
+}
+#third i{
+    top: 64.5%;
+    left: 80.4%;
+}
